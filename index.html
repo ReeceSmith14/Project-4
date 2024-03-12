@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cigar Emporium</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Cigar Emporium</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="featured">
+                <h2>Featured Cigars</h2>
+                <div class="cigar">
+                    <img src="cigar1.jpg" alt="Cigar 1">
+                    <h3>Robusto Maduro</h3>
+                    <p>$10.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="cigar">
+                    <img src="cigar2.jpg" alt="Cigar 2">
+                    <h3>Toro Habano</h3>
+                    <p>$12.99</p>
+                    <button>Add to Cart</button>
+                </div>
+            </section>
+            
+            <section class="about">
+                <h2>About Us</h2>
+                <p>Welcome to Cigar Emporium, your ultimate destination for premium cigars. We offer a wide selection of handcrafted cigars from around the world, meticulously curated to satisfy the most discerning cigar enthusiasts.</p>
+                <p>With our commitment to quality and customer satisfaction, we ensure an exceptional cigar-buying experience. Explore our collection and indulge in the luxury of fine cigars!</p>
+            </section>
+            
+            <section class="contact">
+                <h2>Contact</h2>
+                <p>Have any questions or need assistance? Feel free to contact us!</p>
+                <form action="contact.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-info">
+                <p>Cigar Emporium &copy; 2024</p>
+                <p>Contact: info@cigaremporium.com</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </body>
+</html>
